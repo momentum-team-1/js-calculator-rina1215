@@ -5,12 +5,12 @@
     transform: translate(-50%, -50%);
 }
 
-.container #calculator{ 
+.container{ 
   box-shadow: 5px 2px 8px #ccc;
   width: 500px
 }
 
-#calculator #screen{
+ #display{
     padding: 5px 10px;
     font-size: 30px;
     text-align: right;
@@ -20,7 +20,7 @@
     
 }
 
-.keys{ position: relative }
+
 
 .key{
     width: 25%;     
@@ -28,22 +28,24 @@
     display: inline-block;
     text-align: center;
     font-size: 25px;
-    background-color: #e6e6e6;
     cursor: pointer;
     color: #616569;
-    border: none;
-    border-bottom: 1px solid #ccc;
     border: 1px solid #ccc;
 }
 
-.key:hover{ background-color: #dad9d9 }
+.del{
+    color:gold;
+    background-color: #46494d;
+}
+
+
 
 .calc-numbers{ position: relative }
 
-.row-numbers{ display: flex }
+.row-numbers{ display: flex; }
 
 .row-numbers .key{ background: #fff }
 
-.row-numbers .key:hover{ background-color: #fbf8f8 }
+.container .key:hover{ background-color: lightgreen }
 
 
