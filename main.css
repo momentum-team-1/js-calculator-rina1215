@@ -1,0 +1,51 @@
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container{ 
+  box-shadow: 5px 2px 8px #ccc;
+  width: 500px
+}
+
+ #display{
+    padding: 5px 10px;
+    font-size: 30px;
+    text-align: right;
+    border: none;
+    float: rigth;
+    width: 340px;
+    
+}
+
+
+
+.key{
+    width: 25%;     
+    padding: 15px 10px;
+    display: inline-block;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    color: #616569;
+    border: 1px solid #ccc;
+}
+
+.del{
+    color:gold;
+    background-color: #46494d;
+}
+
+
+
+.calc-numbers{ position: relative }
+
+.row-numbers{ display: flex; }
+
+.row-numbers .key{ background: #fff }
+
+.container .key:hover{ background-color: lightgreen }
+
+
